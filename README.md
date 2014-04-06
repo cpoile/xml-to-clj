@@ -4,7 +4,7 @@ Turns an xml document into a clojure map. Converts strings to their types (if it
 
 ## Usage
 
-For now this isn't on clojars, so you will need to clone the project, run ```run lein install```, and make a symlink from the calling project's checkouts directory to this project's root directory. For reference, see [Leiningen checkouts](https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md#checkout-dependencies) from the tutorial.
+For now this isn't on clojars, so you will need to clone the project, run ```lein install```, and make a symlink from the calling project's checkouts directory to this project's root directory. For reference, see [Leiningen checkouts](https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md#checkout-dependencies) from the tutorial.
 
 Call ```(xml-to-clj xml)``` and receive a clojure map. The end.
 
